@@ -13,6 +13,7 @@ stm32f0xx-hal = { version = "0.18", features = ["stm32f091", "rt"]}
 defmt = "0.3"
 defmt-rtt = "0.4"
 panic-probe = { version = "0.3", features = ["print-defmt"] }
+wifi-nina = "0.1.2"
 
 
 # cargo build/run
